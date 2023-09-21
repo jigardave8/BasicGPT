@@ -1,0 +1,20 @@
+PODS:
+  - ChatGPTSwift (1.3.1):
+    - GPTEncoder (= 1.0.0)
+  - GPTEncoder (1.0.0)
+
+DEPENDENCIES:
+  - ChatGPTSwift (~> 1.3.1)
+
+SPEC REPOS:
+  trunk:
+    - ChatGPTSwift
+    - GPTEncoder
+
+SPEC CHECKSUMS:
+  ChatGPTSwift: 37a1d90b9b8af621618b0abd92cf8ac39eccee59
+  GPTEncoder: 67d0f61b0ef846cea92d7a9e4d4063beb8cd7227
+
+PODFILE CHECKSUM: c1c38af7d74d424e516e7d667352136774bc702a
+
+COCOAPODS: 1.12.1

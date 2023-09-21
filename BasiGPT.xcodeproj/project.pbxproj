@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B76A493E2ABBF9DA00B8CD0E /* BasiGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A493D2ABBF9DA00B8CD0E /* BasiGPTApp.swift */; };
+		B76A49402ABBF9DA00B8CD0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A493F2ABBF9DA00B8CD0E /* ContentView.swift */; };
+		B76A49422ABBF9DF00B8CD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76A49412ABBF9DF00B8CD0E /* Assets.xcassets */; };
+		B76A49452ABBF9DF00B8CD0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76A49442ABBF9DF00B8CD0E /* Preview Assets.xcassets */; };
+		B76A49532ABC0F9C00B8CD0E /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B76A49522ABC0F9C00B8CD0E /* ChatGPTSwift */; };
+		B76A49542ABC169C00B8CD0E /* Pods_BasiGPT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA009DA3723FBB55D0F1C9B8 /* Pods_BasiGPT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EF725D4C35CAC99CB9A107D /* Pods-BasiGPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiGPT.release.xcconfig"; path = "Target Support Files/Pods-BasiGPT/Pods-BasiGPT.release.xcconfig"; sourceTree = "<group>"; };
+		8C1C6AB492F4B1DF85F5CBE2 /* Pods-BasiGPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasiGPT.debug.xcconfig"; path = "Target Support Files/Pods-BasiGPT/Pods-BasiGPT.debug.xcconfig"; sourceTree = "<group>"; };
+		AA009DA3723FBB55D0F1C9B8 /* Pods_BasiGPT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasiGPT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76A493A2ABBF9DA00B8CD0E /* BasiGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasiGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76A493D2ABBF9DA00B8CD0E /* BasiGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasiGPTApp.swift; sourceTree = "<group>"; };
+		B76A493F2ABBF9DA00B8CD0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B76A49412ABBF9DF00B8CD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B76A49442ABBF9DF00B8CD0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B76A49372ABBF9DA00B8CD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76A49532ABC0F9C00B8CD0E /* ChatGPTSwift in Frameworks */,
+				B76A49542ABC169C00B8CD0E /* Pods_BasiGPT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B49E88A496D01ACBBF3792D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA009DA3723FBB55D0F1C9B8 /* Pods_BasiGPT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B76A49312ABBF9DA00B8CD0E = {
+			isa = PBXGroup;
+			children = (
+				B76A493C2ABBF9DA00B8CD0E /* BasiGPT */,
+				B76A493B2ABBF9DA00B8CD0E /* Products */,
+				C0CA565208EE4AABF3B1873D /* Pods */,
+				B49E88A496D01ACBBF3792D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B76A493B2ABBF9DA00B8CD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76A493A2ABBF9DA00B8CD0E /* BasiGPT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76A493C2ABBF9DA00B8CD0E /* BasiGPT */ = {
+			isa = PBXGroup;
+			children = (
+				B76A493D2ABBF9DA00B8CD0E /* BasiGPTApp.swift */,
+				B76A493F2ABBF9DA00B8CD0E /* ContentView.swift */,
+				B76A49412ABBF9DF00B8CD0E /* Assets.xcassets */,
+				B76A49432ABBF9DF00B8CD0E /* Preview Content */,
+			);
+			path = BasiGPT;
+			sourceTree = "<group>";
+		};
+		B76A49432ABBF9DF00B8CD0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B76A49442ABBF9DF00B8CD0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0CA565208EE4AABF3B1873D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C1C6AB492F4B1DF85F5CBE2 /* Pods-BasiGPT.debug.xcconfig */,
+				4EF725D4C35CAC99CB9A107D /* Pods-BasiGPT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B76A49392ABBF9DA00B8CD0E /* BasiGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76A49482ABBF9DF00B8CD0E /* Build configuration list for PBXNativeTarget "BasiGPT" */;
+			buildPhases = (
+				718452D4819D1A17A9A95ADC /* [CP] Check Pods Manifest.lock */,
+				B76A49362ABBF9DA00B8CD0E /* Sources */,
+				B76A49372ABBF9DA00B8CD0E /* Frameworks */,
+				B76A49382ABBF9DA00B8CD0E /* Resources */,
+				6C02932B86B0222B95602491 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasiGPT;
+			packageProductDependencies = (
+				B76A49522ABC0F9C00B8CD0E /* ChatGPTSwift */,
+			);
+			productName = BasiGPT;
+			productReference = B76A493A2ABBF9DA00B8CD0E /* BasiGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B76A49322ABBF9DA00B8CD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B76A49392ABBF9DA00B8CD0E = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B76A49352ABBF9DA00B8CD0E /* Build configuration list for PBXProject "BasiGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B76A49312ABBF9DA00B8CD0E;
+			packageReferences = (
+				B76A49512ABC0F9C00B8CD0E /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
+			productRefGroup = B76A493B2ABBF9DA00B8CD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B76A49392ABBF9DA00B8CD0E /* BasiGPT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B76A49382ABBF9DA00B8CD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76A49452ABBF9DF00B8CD0E /* Preview Assets.xcassets in Resources */,
+				B76A49422ABBF9DF00B8CD0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C02932B86B0222B95602491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasiGPT/Pods-BasiGPT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BasiGPT/Pods-BasiGPT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasiGPT/Pods-BasiGPT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718452D4819D1A17A9A95ADC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasiGPT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B76A49362ABBF9DA00B8CD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76A49402ABBF9DA00B8CD0E /* ContentView.swift in Sources */,
+				B76A493E2ABBF9DA00B8CD0E /* BasiGPTApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B76A49462ABBF9DF00B8CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B76A49472ABBF9DF00B8CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B76A49492ABBF9DF00B8CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1C6AB492F4B1DF85F5CBE2 /* Pods-BasiGPT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BasiGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G46N5JLN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitdegree.BasiGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B76A494A2ABBF9DF00B8CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF725D4C35CAC99CB9A107D /* Pods-BasiGPT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BasiGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 3G46N5JLN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitdegree.BasiGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B76A49352ABBF9DA00B8CD0E /* Build configuration list for PBXProject "BasiGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76A49462ABBF9DF00B8CD0E /* Debug */,
+				B76A49472ABBF9DF00B8CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76A49482ABBF9DF00B8CD0E /* Build configuration list for PBXNativeTarget "BasiGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76A49492ABBF9DF00B8CD0E /* Debug */,
+				B76A494A2ABBF9DF00B8CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B76A49512ABC0F9C00B8CD0E /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B76A49522ABC0F9C00B8CD0E /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B76A49512ABC0F9C00B8CD0E /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = ChatGPTSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B76A49322ABBF9DA00B8CD0E /* Project object */;
+}
